@@ -1,0 +1,13 @@
+train: C:/Users/visha/Documents/ProjectThesis/train
+val: C:/Users/visha/Documents/ProjectThesis/valid
+test: C:/Users/visha/Documents/ProjectThesis/test
+
+nc: 4
+names: ['closed_fist', 'open_palm', 'thumbs_up', 'v_sign']
+
+roboflow:
+  workspace: gesturerecognition-9ztvg
+  project: static_hand_gesture_recognition
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gesturerecognition-9ztvg/static_hand_gesture_recognition/dataset/1
