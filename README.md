@@ -14,7 +14,7 @@ To use Roboflow's API, follow these steps:
  `!pip install roboflow`
 ```
 from roboflow import Roboflow
-rf = Roboflow(api_key=" ")
+rf = Roboflow(api_key=" ")  #request for api_key
 project = rf.workspace("gesturerecognition-9ztvg").project("static_hand_gesture_recognition")
 version = project.version(1)
 dataset = version.download("yolov5")
